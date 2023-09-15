@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Time_Conversion", "Time_Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grading_Students", "Grading_Students\Grading_Students\Grading_Students.csproj", "{EF3553FB-D40B-4836-A39C-DA6F337B4A6E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apple_and_Orange", "Apple_and_Orange\Apple_and_Orange\Apple_and_Orange.csproj", "{68F2C588-B48C-420E-B5E0-72BE16516340}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{EF3553FB-D40B-4836-A39C-DA6F337B4A6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF3553FB-D40B-4836-A39C-DA6F337B4A6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF3553FB-D40B-4836-A39C-DA6F337B4A6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68F2C588-B48C-420E-B5E0-72BE16516340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F2C588-B48C-420E-B5E0-72BE16516340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F2C588-B48C-420E-B5E0-72BE16516340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F2C588-B48C-420E-B5E0-72BE16516340}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
