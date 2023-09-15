@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mini-Max_Sum", "Mini-Max_Su
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plus_Minus", "Plus_Minus\Plus_Minus\Plus_Minus.csproj", "{CFFCAFC8-6725-41E7-99A0-11AA1F31A1BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Birthday_Cake_Candles", "Birthday_Cake_Candles\Birthday_Cake_Candles\Birthday_Cake_Candles.csproj", "{8AC0C47A-3DC9-4D4D-B13B-C93CCCFB8225}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Birthday_Cake_Candles", "Birthday_Cake_Candles\Birthday_Cake_Candles\Birthday_Cake_Candles.csproj", "{8AC0C47A-3DC9-4D4D-B13B-C93CCCFB8225}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Time_Conversion", "Time_Conversion\Time_Conversion\Time_Conversion.csproj", "{B7FA6DAE-8547-4FEC-8128-D45735CE90E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Time_Conversion", "Time_Conversion\Time_Conversion\Time_Conversion.csproj", "{B7FA6DAE-8547-4FEC-8128-D45735CE90E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grading_Students", "Grading_Students\Grading_Students\Grading_Students.csproj", "{EF3553FB-D40B-4836-A39C-DA6F337B4A6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{B7FA6DAE-8547-4FEC-8128-D45735CE90E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7FA6DAE-8547-4FEC-8128-D45735CE90E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7FA6DAE-8547-4FEC-8128-D45735CE90E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF3553FB-D40B-4836-A39C-DA6F337B4A6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF3553FB-D40B-4836-A39C-DA6F337B4A6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF3553FB-D40B-4836-A39C-DA6F337B4A6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF3553FB-D40B-4836-A39C-DA6F337B4A6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
