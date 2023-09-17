@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Birthday_Cake_Candles", "Bi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Time_Conversion", "Time_Conversion\Time_Conversion\Time_Conversion.csproj", "{B7FA6DAE-8547-4FEC-8128-D45735CE90E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grading_Students", "Grading_Students\Grading_Students\Grading_Students.csproj", "{EF3553FB-D40B-4836-A39C-DA6F337B4A6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grading_Students", "Grading_Students\Grading_Students\Grading_Students.csproj", "{EF3553FB-D40B-4836-A39C-DA6F337B4A6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apple_and_Orange", "Apple_and_Orange\Apple_and_Orange\Apple_and_Orange.csproj", "{68F2C588-B48C-420E-B5E0-72BE16516340}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apple_and_Orange", "Apple_and_Orange\Apple_and_Orange\Apple_and_Orange.csproj", "{68F2C588-B48C-420E-B5E0-72BE16516340}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Number_Line_Jumps", "Number_Line_Jumps\Number_Line_Jumps\Number_Line_Jumps.csproj", "{CE101F9B-8544-4C36-8E11-5DF8C1C649C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{68F2C588-B48C-420E-B5E0-72BE16516340}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68F2C588-B48C-420E-B5E0-72BE16516340}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68F2C588-B48C-420E-B5E0-72BE16516340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE101F9B-8544-4C36-8E11-5DF8C1C649C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE101F9B-8544-4C36-8E11-5DF8C1C649C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE101F9B-8544-4C36-8E11-5DF8C1C649C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE101F9B-8544-4C36-8E11-5DF8C1C649C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
