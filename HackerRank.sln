@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grading_Students", "Grading
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apple_and_Orange", "Apple_and_Orange\Apple_and_Orange\Apple_and_Orange.csproj", "{68F2C588-B48C-420E-B5E0-72BE16516340}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Number_Line_Jumps", "Number_Line_Jumps\Number_Line_Jumps\Number_Line_Jumps.csproj", "{CE101F9B-8544-4C36-8E11-5DF8C1C649C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Number_Line_Jumps", "Number_Line_Jumps\Number_Line_Jumps\Number_Line_Jumps.csproj", "{CE101F9B-8544-4C36-8E11-5DF8C1C649C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Breaking_the_Records", "Breaking_the_Records\Breaking_the_Records\Breaking_the_Records.csproj", "{F26D267F-2B87-4AB8-B5F8-D0935CE2659D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{CE101F9B-8544-4C36-8E11-5DF8C1C649C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE101F9B-8544-4C36-8E11-5DF8C1C649C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE101F9B-8544-4C36-8E11-5DF8C1C649C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F26D267F-2B87-4AB8-B5F8-D0935CE2659D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26D267F-2B87-4AB8-B5F8-D0935CE2659D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26D267F-2B87-4AB8-B5F8-D0935CE2659D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26D267F-2B87-4AB8-B5F8-D0935CE2659D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
