@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Number_Line_Jumps", "Number
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Breaking_the_Records", "Breaking_the_Records\Breaking_the_Records\Breaking_the_Records.csproj", "{F26D267F-2B87-4AB8-B5F8-D0935CE2659D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subarray_Division", "Subarray_Division\Subarray_Division\Subarray_Division.csproj", "{F532ABE8-8532-4014-9AFF-89EFDF1C4591}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{F26D267F-2B87-4AB8-B5F8-D0935CE2659D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F26D267F-2B87-4AB8-B5F8-D0935CE2659D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F26D267F-2B87-4AB8-B5F8-D0935CE2659D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F532ABE8-8532-4014-9AFF-89EFDF1C4591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F532ABE8-8532-4014-9AFF-89EFDF1C4591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F532ABE8-8532-4014-9AFF-89EFDF1C4591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F532ABE8-8532-4014-9AFF-89EFDF1C4591}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
