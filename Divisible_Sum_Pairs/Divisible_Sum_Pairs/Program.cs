@@ -16,30 +16,27 @@ class Result
 {
 
     /*
-     * Complete the 'birthday' function below.
+     * Complete the 'divisibleSumPairs' function below.
      *
      * The function is expected to return an INTEGER.
      * The function accepts following parameters:
-     *  1. INTEGER_ARRAY s
-     *  2. INTEGER d
-     *  3. INTEGER m
+     *  1. INTEGER n
+     *  2. INTEGER k
+     *  3. INTEGER_ARRAY ar
      */
 
-    public static int birthday(List<int> s, int d, int m)
+    public static int divisibleSumPairs(int n, int k, List<int> ar)
     {
         int count = 0;
-
-        for (int i = 0; i < s.Count; i++)
+        for (int i = 0; i < n - 1; i++)
         {
-            int tmp = 0;
-
-            for (int j = i; j < i + m; j++)
+            for (int x = i + 1; x < n; x++)
             {
-                if (j == s.Count) break;
-                tmp += s[j];
+                if ((ar[i] + ar[x]) % k == 0)
+                {
+                    count++;
+                }
             }
-
-            if (d == tmp) count++;
         }
         return count;
     }
@@ -52,17 +49,15 @@ class Solution
     {
         TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
-        int n = Convert.ToInt32(Console.ReadLine().Trim());
-
-        List<int> s = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(sTemp => Convert.ToInt32(sTemp)).ToList();
-
         string[] firstMultipleInput = Console.ReadLine().TrimEnd().Split(' ');
 
-        int d = Convert.ToInt32(firstMultipleInput[0]);
+        int n = Convert.ToInt32(firstMultipleInput[0]);
 
-        int m = Convert.ToInt32(firstMultipleInput[1]);
+        int k = Convert.ToInt32(firstMultipleInput[1]);
 
-        int result = Result.birthday(s, d, m);
+        List<int> ar = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arTemp => Convert.ToInt32(arTemp)).ToList();
+
+        int result = Result.divisibleSumPairs(n, k, ar);
 
         textWriter.WriteLine(result);
 
