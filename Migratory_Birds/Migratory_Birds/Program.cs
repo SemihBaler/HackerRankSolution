@@ -1,23 +1,60 @@
-﻿namespace Migratory_Birds
+﻿using System.CodeDom.Compiler;
+using System.Collections.Generic;
+using System.Collections;
+using System.ComponentModel;
+using System.Diagnostics.CodeAnalysis;
+using System.Globalization;
+using System.IO;
+using System.Linq;
+using System.Reflection;
+using System.Runtime.Serialization;
+using System.Text.RegularExpressions;
+using System.Text;
+using System;
+
+class Result
 {
-    internal class Program
+
+    /*
+     * Complete the 'migratoryBirds' function below.
+     *
+     * The function is expected to return an INTEGER.
+     * The function accepts INTEGER_ARRAY arr as parameter.
+     */
+
+    public static int migratoryBirds(List<int> arr)
     {
-        static void Main(string[] args)
+
+        int[] counts = new int[6];
+        foreach (var item in arr)
         {
-            var arr = new List<int>()
-            {
-                1,2,5,6,78,11,45,1,2,6,4,4,4,2,2,5,5,7
-            };
-            int[] counts = new int[6];
-            foreach (var item in arr)
-            {
-                counts[item]++;
-            }
-
-            int maxCount = counts.Max();
-            int mostFrequentBird = Array.IndexOf(counts, maxCount);
-
-            Console.WriteLine(mostFrequentBird);
+            counts[item]++;
         }
+
+        int maxCount = counts.Max();
+        int mostFrequentBird = Array.IndexOf(counts, maxCount);
+
+        return mostFrequentBird;
+
+    }
+
+}
+
+class Solution
+{
+    public static void Main(string[] args)
+    {
+        TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+
+        int arrCount = Convert.ToInt32(Console.ReadLine().Trim());
+
+        List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
+
+        int result = Result.migratoryBirds(arr);
+
+        textWriter.WriteLine(result);
+
+        textWriter.Flush();
+        textWriter.Close();
     }
 }
