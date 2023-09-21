@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Breaking_the_Records", "Bre
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subarray_Division", "Subarray_Division\Subarray_Division\Subarray_Division.csproj", "{F532ABE8-8532-4014-9AFF-89EFDF1C4591}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divisible_Sum_Pairs", "Divisible_Sum_Pairs\Divisible_Sum_Pairs\Divisible_Sum_Pairs.csproj", "{ADC75093-EE35-4071-85CF-C09F1033478C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Divisible_Sum_Pairs", "Divisible_Sum_Pairs\Divisible_Sum_Pairs\Divisible_Sum_Pairs.csproj", "{ADC75093-EE35-4071-85CF-C09F1033478C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migratory_Birds", "Migratory_Birds\Migratory_Birds\Migratory_Birds.csproj", "{69442C14-DEE0-4F1D-85EF-7D28514BB37D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{ADC75093-EE35-4071-85CF-C09F1033478C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADC75093-EE35-4071-85CF-C09F1033478C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADC75093-EE35-4071-85CF-C09F1033478C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69442C14-DEE0-4F1D-85EF-7D28514BB37D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69442C14-DEE0-4F1D-85EF-7D28514BB37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69442C14-DEE0-4F1D-85EF-7D28514BB37D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69442C14-DEE0-4F1D-85EF-7D28514BB37D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
