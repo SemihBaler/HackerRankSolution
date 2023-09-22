@@ -31,9 +31,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subarray_Division", "Subarr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Divisible_Sum_Pairs", "Divisible_Sum_Pairs\Divisible_Sum_Pairs\Divisible_Sum_Pairs.csproj", "{ADC75093-EE35-4071-85CF-C09F1033478C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migratory_Birds", "Migratory_Birds\Migratory_Birds\Migratory_Birds.csproj", "{69442C14-DEE0-4F1D-85EF-7D28514BB37D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Migratory_Birds", "Migratory_Birds\Migratory_Birds\Migratory_Birds.csproj", "{69442C14-DEE0-4F1D-85EF-7D28514BB37D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day_of_the_Programmer", "Day_of_the_Programmer\Day_of_the_Programmer\Day_of_the_Programmer.csproj", "{B84F39D5-88A8-4A77-88E7-7D38194A16C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_of_the_Programmer", "Day_of_the_Programmer\Day_of_the_Programmer\Day_of_the_Programmer.csproj", "{B84F39D5-88A8-4A77-88E7-7D38194A16C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bill_Division", "Bill_Division\Bill_Division\Bill_Division.csproj", "{5DED1168-DD6A-4CEE-8FB5-F21B469D0459}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{B84F39D5-88A8-4A77-88E7-7D38194A16C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B84F39D5-88A8-4A77-88E7-7D38194A16C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B84F39D5-88A8-4A77-88E7-7D38194A16C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DED1168-DD6A-4CEE-8FB5-F21B469D0459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DED1168-DD6A-4CEE-8FB5-F21B469D0459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DED1168-DD6A-4CEE-8FB5-F21B469D0459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DED1168-DD6A-4CEE-8FB5-F21B469D0459}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
