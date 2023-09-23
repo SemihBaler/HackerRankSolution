@@ -1,10 +1,66 @@
-﻿namespace Bill_Division
+﻿using System.CodeDom.Compiler;
+using System.Collections.Generic;
+using System.Collections;
+using System.ComponentModel;
+using System.Diagnostics.CodeAnalysis;
+using System.Globalization;
+using System.IO;
+using System.Linq;
+using System.Reflection;
+using System.Runtime.Serialization;
+using System.Text.RegularExpressions;
+using System.Text;
+using System;
+
+class Result
 {
-    internal class Program
+
+    /*
+     * Complete the 'bonAppetit' function below.
+     *
+     * The function accepts following parameters:
+     *  1. INTEGER_ARRAY bill
+     *  2. INTEGER k
+     *  3. INTEGER b
+     */
+
+    public static void bonAppetit(List<int> bill, int k, int b)
     {
-        static void Main(string[] args)
+        int value = 0;
+        for (int i = 0; i < bill.Count; i++)
         {
-            Console.WriteLine("Hello, World!");
+            if (i != k)
+            {
+                value += bill[i];
+            }
         }
+        int charged = value / 2;
+        if (charged == b)
+        {
+            Console.WriteLine("Bon Appetit");
+        }
+        else if (charged < b)
+        {
+            Console.WriteLine(b - charged);
+        }
+    }
+
+}
+
+class Solution
+{
+    public static void Main(string[] args)
+    {
+        string[] firstMultipleInput = Console.ReadLine().TrimEnd().Split(' ');
+
+        int n = Convert.ToInt32(firstMultipleInput[0]);
+
+        int k = Convert.ToInt32(firstMultipleInput[1]);
+
+        List<int> bill = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(billTemp => Convert.ToInt32(billTemp)).ToList();
+
+        int b = Convert.ToInt32(Console.ReadLine().Trim());
+
+        Result.bonAppetit(bill, k, b);
     }
 }

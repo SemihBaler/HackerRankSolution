@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Migratory_Birds", "Migrator
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_of_the_Programmer", "Day_of_the_Programmer\Day_of_the_Programmer\Day_of_the_Programmer.csproj", "{B84F39D5-88A8-4A77-88E7-7D38194A16C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bill_Division", "Bill_Division\Bill_Division\Bill_Division.csproj", "{5DED1168-DD6A-4CEE-8FB5-F21B469D0459}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bill_Division", "Bill_Division\Bill_Division\Bill_Division.csproj", "{5DED1168-DD6A-4CEE-8FB5-F21B469D0459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales_by_Match", "Sales_by_Match\Sales_by_Match\Sales_by_Match.csproj", "{1F434E23-23D5-4FC2-A3B2-FD693828932D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{5DED1168-DD6A-4CEE-8FB5-F21B469D0459}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DED1168-DD6A-4CEE-8FB5-F21B469D0459}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DED1168-DD6A-4CEE-8FB5-F21B469D0459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F434E23-23D5-4FC2-A3B2-FD693828932D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F434E23-23D5-4FC2-A3B2-FD693828932D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F434E23-23D5-4FC2-A3B2-FD693828932D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F434E23-23D5-4FC2-A3B2-FD693828932D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
