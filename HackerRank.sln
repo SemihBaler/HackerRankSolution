@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_of_the_Programmer", "Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bill_Division", "Bill_Division\Bill_Division\Bill_Division.csproj", "{5DED1168-DD6A-4CEE-8FB5-F21B469D0459}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales_by_Match", "Sales_by_Match\Sales_by_Match\Sales_by_Match.csproj", "{1F434E23-23D5-4FC2-A3B2-FD693828932D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales_by_Match", "Sales_by_Match\Sales_by_Match\Sales_by_Match.csproj", "{1F434E23-23D5-4FC2-A3B2-FD693828932D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Counting_Valleys", "Counting_Valleys\Counting_Valleys\Counting_Valleys.csproj", "{EAEFED0B-450A-497B-A841-8A609B67FDAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{1F434E23-23D5-4FC2-A3B2-FD693828932D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F434E23-23D5-4FC2-A3B2-FD693828932D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F434E23-23D5-4FC2-A3B2-FD693828932D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAEFED0B-450A-497B-A841-8A609B67FDAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAEFED0B-450A-497B-A841-8A609B67FDAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAEFED0B-450A-497B-A841-8A609B67FDAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAEFED0B-450A-497B-A841-8A609B67FDAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
