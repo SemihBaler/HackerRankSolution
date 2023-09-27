@@ -39,7 +39,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bill_Division", "Bill_Divis
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales_by_Match", "Sales_by_Match\Sales_by_Match\Sales_by_Match.csproj", "{1F434E23-23D5-4FC2-A3B2-FD693828932D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Counting_Valleys", "Counting_Valleys\Counting_Valleys\Counting_Valleys.csproj", "{EAEFED0B-450A-497B-A841-8A609B67FDAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Counting_Valleys", "Counting_Valleys\Counting_Valleys\Counting_Valleys.csproj", "{EAEFED0B-450A-497B-A841-8A609B67FDAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cats_and_a_Mouse", "Cats_and_a_Mouse\Cats_and_a_Mouse\Cats_and_a_Mouse.csproj", "{A6721DC3-05F1-43C7-AF5E-384FE2962D3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{EAEFED0B-450A-497B-A841-8A609B67FDAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAEFED0B-450A-497B-A841-8A609B67FDAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAEFED0B-450A-497B-A841-8A609B67FDAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6721DC3-05F1-43C7-AF5E-384FE2962D3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6721DC3-05F1-43C7-AF5E-384FE2962D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6721DC3-05F1-43C7-AF5E-384FE2962D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6721DC3-05F1-43C7-AF5E-384FE2962D3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
