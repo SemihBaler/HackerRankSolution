@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales_by_Match", "Sales_by_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Counting_Valleys", "Counting_Valleys\Counting_Valleys\Counting_Valleys.csproj", "{EAEFED0B-450A-497B-A841-8A609B67FDAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cats_and_a_Mouse", "Cats_and_a_Mouse\Cats_and_a_Mouse\Cats_and_a_Mouse.csproj", "{A6721DC3-05F1-43C7-AF5E-384FE2962D3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cats_and_a_Mouse", "Cats_and_a_Mouse\Cats_and_a_Mouse\Cats_and_a_Mouse.csproj", "{A6721DC3-05F1-43C7-AF5E-384FE2962D3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The_Hurdle_Race", "The_Hurdle_Race\The_Hurdle_Race\The_Hurdle_Race.csproj", "{C11727B8-14D5-4911-B87F-B6F8523D4615}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{A6721DC3-05F1-43C7-AF5E-384FE2962D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6721DC3-05F1-43C7-AF5E-384FE2962D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6721DC3-05F1-43C7-AF5E-384FE2962D3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C11727B8-14D5-4911-B87F-B6F8523D4615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C11727B8-14D5-4911-B87F-B6F8523D4615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C11727B8-14D5-4911-B87F-B6F8523D4615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C11727B8-14D5-4911-B87F-B6F8523D4615}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
