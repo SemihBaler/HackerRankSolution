@@ -39,11 +39,11 @@ class Result
             }
             if (list[i] % 2 == 0 && i != 0)
             {
-                result = (result + 1);
+                result += 1;
             }
             if (list[i] % 2 != 0)
             {
-                result = (result * 2);
+                result *= 2;
             }
         }
         return result;
