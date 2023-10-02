@@ -47,7 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "The_Hurdle_Race", "The_Hurd
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Designer_PDF_Viewer", "Designer_PDF_Viewer\Designer_PDF_Viewer\Designer_PDF_Viewer.csproj", "{D2AFA823-F5BA-4D95-9C32-EE9F66C99438}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utopian_Tree", "Utopian_Tree\Utopian_Tree\Utopian_Tree.csproj", "{79BD7F61-F804-4BD6-A4AF-1CC95462D9D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utopian_Tree", "Utopian_Tree\Utopian_Tree\Utopian_Tree.csproj", "{79BD7F61-F804-4BD6-A4AF-1CC95462D9D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angry_Professor", "Angry_Professor\Angry_Professor\Angry_Professor.csproj", "{51343C2A-825B-41B4-9855-038691A0AF88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{79BD7F61-F804-4BD6-A4AF-1CC95462D9D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79BD7F61-F804-4BD6-A4AF-1CC95462D9D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79BD7F61-F804-4BD6-A4AF-1CC95462D9D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51343C2A-825B-41B4-9855-038691A0AF88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51343C2A-825B-41B4-9855-038691A0AF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51343C2A-825B-41B4-9855-038691A0AF88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51343C2A-825B-41B4-9855-038691A0AF88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
