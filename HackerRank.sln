@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Designer_PDF_Viewer", "Desi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utopian_Tree", "Utopian_Tree\Utopian_Tree\Utopian_Tree.csproj", "{79BD7F61-F804-4BD6-A4AF-1CC95462D9D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angry_Professor", "Angry_Professor\Angry_Professor\Angry_Professor.csproj", "{51343C2A-825B-41B4-9855-038691A0AF88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Angry_Professor", "Angry_Professor\Angry_Professor\Angry_Professor.csproj", "{51343C2A-825B-41B4-9855-038691A0AF88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viral_Advertising", "Viral_Advertising\Viral_Advertising\Viral_Advertising.csproj", "{322FFEB0-45F2-49C0-A76B-8A7FA9840A25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{51343C2A-825B-41B4-9855-038691A0AF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51343C2A-825B-41B4-9855-038691A0AF88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51343C2A-825B-41B4-9855-038691A0AF88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{322FFEB0-45F2-49C0-A76B-8A7FA9840A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322FFEB0-45F2-49C0-A76B-8A7FA9840A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322FFEB0-45F2-49C0-A76B-8A7FA9840A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322FFEB0-45F2-49C0-A76B-8A7FA9840A25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
